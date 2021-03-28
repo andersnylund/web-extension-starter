@@ -37,3 +37,7 @@ To build a production version of the source code, run `yarn build`. This will ou
 ## Tests
 
 To run unit tests locally run `yarn test`
+
+## Linting
+
+To run the linter run `yarn lint`

@@ -12,7 +12,9 @@ describe('<Popup.tsx />', () => {
 
   it('logs hello to console when clicking button', () => {
     const consoleSpy = jest.spyOn(console, 'log');
-    consoleSpy.mockImplementation(() => {});
+    consoleSpy.mockImplementation(() => {
+      // we don't want test logs to clutter our console
+    });
 
     render(<Popup />);
 
