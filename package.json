@@ -1,6 +1,10 @@
 {
   "name": "web-extension-starter",
   "version": "1.0.0",
+  "author": "Anders Nylund <anders@andersnylund.com>",
+  "description": "A simple TypeScript React starter for creating web extensions for Chrome and Firefox",
+  "license": "MIT",
+  "private": true,
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "chrome": "yarn extension --chromium-profile \"./.chrome\" --target chromium",
@@ -11,9 +15,6 @@
     "watch": "webpack -w --config webpack.dev.js",
     "lint": "eslint src"
   },
-  "author": "Anders Nylund <anders@andersnylund.com>",
-  "license": "MIT",
-  "private": true,
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",

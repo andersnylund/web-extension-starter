@@ -2,13 +2,17 @@
 
 ![Icon](./dist/icon128.png)
 
-A simple starter for creating web extensions for Chrome and Firefox
+A simple TypeScript React starter for creating web extensions for Chrome and Firefox
 
 The starter uses
 
-- `styled-components` for styling
+- `react` for the popup
+- `styled-components` for styling the popup
+- `web-ext` for installing and hot-reloading the installed extension
+- `webextension-polyfill-ts` to polyfill the differences of Chrome and Firefox
 - `jest` and `testing-library-react` for tests
-- `webextension-polyfill-ts` to polyfill the differences of Chrome and Firefox. Write once run everywhere™️
+- `eslint` configured for TypeScript
+- `webpack` to build the extension
 
 ## Requirements
 
